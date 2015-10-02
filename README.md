@@ -12,7 +12,7 @@ SOAP通信 + SSLクライアント証明書の実験をするためのRailsア�
 3. config/settings.local.ymlに証明書のパスワードを設定する
   - http://keep-up-with-tech.blogspot.jp/2013/03/ruby.html を参考にして暗号化し、複合化に必要な情報を設定する
   - 設定例は config/settings.yml を参照。
-4. soap-server-sandboxをセットアップ＆起動する
+4. [soap-server-sandbox](https://github.com/JunichiIto/soap-server-sandbox) をセットアップ＆起動する
   - https://localhost:3443/rumbas/wsdl にアクセスできるようにする
 5. テストがパスすることを確認する
   - `bin/rake test`
