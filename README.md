@@ -15,4 +15,5 @@ SOAP通信 + SSLクライアント証明書の実験をするためのRailsア�
 4. [soap-server-sandbox](https://github.com/JunichiIto/soap-server-sandbox) をセットアップ＆起動する
   - https://localhost:3443/rumbas/wsdl にアクセスできるようにする
 5. テストがパスすることを確認する
+  - `bin/rake db:migrate`
   - `bin/rake test`
